@@ -16,8 +16,33 @@ h2{
     position: absolute;
     top: 35%;
     left: 32%;
-    font-size: 300%;
     color: white;
     font-weight: 900;
-    font-size: 60px;
+    font-size: 80px;
 }
+
+.spiritual_description {
+    text-align: center;
+    font-size: 25px;
+}
+
+.container {
+    width: 90%;
+    border: 2px solid black;
+}
+
+.btn2 {
+    position:relative;
+    bottom: 20px;
+}
+
+.btn3 {
+    position: relative;
+    top: 20px;
+}
+
+.btn4 {
+    position: relative;
+    top: 44px;
+}
+
