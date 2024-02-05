@@ -13,6 +13,8 @@ body {
 }
 
 .nav {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -45,11 +47,11 @@ body {
 }
 
 .search-bar {
-    font-family: cursive;
     border: 1px solid aliceblue;
     border-radius: 5px;
-    padding: 5px 35px;
+    padding: 5px 40px;
     background-color: #092635;
+    color: aliceblue;
 }
 
 .nav-anchor {
