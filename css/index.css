@@ -116,6 +116,70 @@
     color: #092635;
 }
 
+.tour-packages {
+    margin: 20px;
+}
+
+.tour-title {
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+
+.tour-1 {
+    padding: 30px;
+    display: block;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tour-1-img {
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid aliceblue;
+    border-radius: 15px;
+}
+
+.tour-1-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.tour-1-discription {
+    font-size: larger;
+}
+
+.tour-1-btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    display: block;
+    margin: 5px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+    color: #092635;
+}
+
 .anc {
     text-decoration: none;
+}
+
+.tour-2 {
+    padding: 30px;
+    display: block;
+    margin: 35px auto 10px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tour-3 {
+    padding: 30px;
+    display: block;
+    margin: 35px auto 10px auto;
+    display: flex;
+    justify-content: space-around;
 }
