@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+   
+body { 
+font-family:'Nunito', sans-serif;
+background-color: #092635;
+color: aliceblue;
+margin: 0;
+}
+
+.nav {
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 10px;
+font-weight: bold;
+}
+
+.logo-img {
+height: 50px;
+display: block;
+margin: 10px auto;
+border-radius: 5px;
+box-shadow: 1px 1px 5px 2px aliceblue;
+
+}
+
+.logo-img:hover {
+border: none;
+transform: scale(1.1);
+transition: 0.5s;
+}
+
+.nav-content:hover {
+transform: scale(1.1);
+transition: 0.5s;
+}
+
+.icon-img {
+height: 50px;
+padding-bottom: 0;
+
+
+}
+
+.search-bar {
+font-family: cursive;
+border: 1px solid aliceblue;
+border-radius: 5px;
+padding: 5px 35px;
+background-color: #092635;
+}
+
+.nav-anchor {
+text-decoration: none;
+color: aliceblue;
+}
+
+.footer {
+margin: 0;
+padding: 30px 30px 0 30px;
+color: #092635;
+background-color: aliceblue;
+font-size: small;
+font-weight: 600;
+}
+
+.inner-footer {
+display: flex;
+}
+
+.container0 {
+display: inline;
+}
+
+.container1 {
+width: 900px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.footer-title {
+font-size: large;
+margin-bottom: 0;
+}
+
+.footer-logo {
+width: 200px;
+
+}
+
+.footer-name {
+margin: 10px;
+}
+span {
+color: #092635;
+}
+
+.contact-logo {
+height:20px;
+margin-bottom: auto;
+
+}
+
+.footer-anchor {
+text-decoration: none;
+color: #092635;
+}
+
+.footer-end {
+display: block;
+text-align: center;
+margin-bottom: 5px;
+padding: 10px;
+}
+
+* {
+margin:0;
+padding:0;
+box-sizing:border-box;
+user-select: none;
+}
+.container{
+display: flex;
+justify-content: space-evenly;
+margin-top: 400px;
+}
+.login{
+padding-top: 40px;
+transform:translate(-50%,-50%);
+margin-top: 50px;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+background-color: rgba(0,0,0,0.7);
+border-radius:5px;
+box-shadow:1px 1px 20px cyan;
+width: 355px;
+padding: 40px;
+}
+
+.login header{
+margin-bottom:25px;
+margin:0 0 25px 0;
+}
+
+img{
+position:relative;
+width:80px;
+top:50%;
+left: 85px;
+border-radius:50%;
+box-shadow:1px  1px 15px rgb(95, 98, 98);
+
+}
+
+.field{
+border:1px solid cyan;
+border-radius:50px;
+background-color:transparent;
+width:100%;
+margin-bottom:15px;
+display:flex;
+}
+.field span{
+color:white;
+width:40px;
+line-height:45px;
+text-align: center;
+
+}
+.field input{
+width:100%;
+height:45px;
+font-size:1.1rem;
+padding:5px;
+color:cyan;
+background-color: transparent;
+border:none;
+
+}
+.forgot-password{
+width:100%;
+margin-bottom:15px;
+}
+
+.forgot-password a{
+color:white;
+text-decoration:none;
+}
+.forgot-password a:hover { 
+text-decoration:underline;
+}
+
+.submit{
+display:flex;
+justify-content:center;
+width:100%;
+height:45px;
+margin-bottom:25px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.2rem;
+color:white;
+background-color: transparent;
+border:1px solid cyan;
+border-radius:125px;
+
+}
+.submit:hover{
+    cursor:pointer;
+    background-color:rgb(13,16,61);
+
+}
+.login-form-copy{
+    margin-bottom: 15px;
+    color:white;
+  }
+.login-form_sign-up
+{
+    text-decoration:none;
+    color:rgb(18,190,190);
+ }
+
+ .social-icons{
+    display:flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+ }
+ 
+ .social-icon{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size:1.4rem;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    cursor:pointer;
+    margin-bottom:15px;
+
+ }
+ .facebook{
+    color:white;
+    background-color: #385998;
+}
+.instagram{
+    background: linear-gradient(rgb(243,5,171),rgb(205,95,4),yellow);
+}
+.twitter{
+    background-color: #00ACEE;
+}
+.google{
+    background-color: #CA3224;
+}
+
+.linkedin{
+    background-color: #0E76AB;
+}
+
