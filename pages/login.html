@@ -1,97 +1,105 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vista-Europe</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/login.css">
 
-  <title>Social Login</title>
+  </head>
+  <body>
 
-  
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="../css/login.css">   
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
- </head>
- <body>
-
- <!--Navigation Bar-->
-
+    <!--Navigation Bar-->
     <div class="nav">
-    <div class="logo">
-      <a href="./index.html">
-        <img
-          src="../icons/vista-Europe.png"
-          alt="vista-europe"
-          class="logo-img"
-        />
-      </a>
+      <div class="logo">
+        <a href="../index.html">
+          <img
+            src="../icons/vista-Europe.png"
+            alt="vista-europe"
+            class="logo-img"
+          />
+        </a>
+      </div>
+      <div class="nav-content">
+        <a href="../index.html" class="nav-anchor"> Home </a>
+      </div>
+      <div class="nav-content">
+        <form>
+          <input
+            class="search-bar"
+            type="text"
+            placeholder=" Enter Destination 🔍"
+          />
+        </form>
+      </div>
+      <div class="nav-content">
+        <a href="./destination.html" class="nav-anchor"> Destination </a>
+      </div>
+      <div class="nav-content">
+        <a href="./experiences.html" class="nav-anchor"> Experiences </a>
+      </div>
+      <div class="nav-content">
+        <a href="./login.html" class="nav-anchor"> Login </a>
+      </div>
     </div>
-    <div class="nav-content">
-      <a href="index.html" class="nav-anchor"> Home </a>
-    </div>
-    <div class="nav-content">
-      <form>
-        <input
-          class="search-bar"~
-          type="text"
-          placeholder=" Enter Destination 🔍"
-        />
-      </form>
-    </div>
-    <div class="nav-content">
-      <a href="./pages/destination.html" class="nav-anchor"> Destination </a>
-    </div>
-    <div class="nav-content">
-      <a href="./pages/experiences.html" class="nav-anchor"> Experiences </a>
-    </div>
-    <div class="nav-content">
-      <a href="./pages/login.html" class="nav-anchor"> Login </a>
-    </div>
-  </div>
 
-  <div class="container">
-  <div class="box">
-   <p><h1>Sign In to Indian Tourister</h1>
-         <h3>Enter your details below.</h3>
+       <p class="tex">
+      Sign In to Indian Tourister
+    </p>
+    <p class="description">
+     Enter your details below
+    </p>
+   <p class="icons">
+  <img src="../img/google.png" class="google-logo" />
+  <img src="../img/instagram.png" class="instagram-logo" />
+  <img src="../img/twitter.jpg" class="twitter-logo" />
+  <img src="../img/microsoft.png" class="microsoft-logo" />
+  </p>
+<P>OR</P>
+<label class="user"><b>Username</b></label>
+<p>
+<input
+  type="Username"
+  placeholder="Username"
+  class="a"
+  /></p>
+ <label class="pass"><b>Password</b></label>
+  <p>
+  <input
+  type="Password"
+  placeholder="Password"
+  class="b"
+  />
 </p>
-</div>
+<p class="forgot-password"><a href=""><b>Forgot Password ?</b></a>
+</p>
+<p>
+  <button><b>Sign In</b></button>
+</p>
+<p class="des">
+Not a member yet ? Sign up now
+</p>
+ <!--Footer-->
 
-  <form action="" class="login">
-
-    <header><img src="https://tse1.mm.bing.net/th?id=OIP.T8KxdBzU1cndmTwhxMCsLwHaHa&pid=Api&P=0&h=180"></header>
-    <div class="field"><span class="fa fa-user"></span><input type="text" placeholder="Email or Username"></div>
-    <div class="field"><span class="fa fa-lock"></span><input type="password" placeholder="Password"></div>
-    <div class="forgot-password"><a href="">Forgot password ?</a></div>
-    <input type="submit" class="submit" value="Login">
-    <span class="login-form-copy">Or Login With</span>
-    <div class="social-icons">
-      <div class="social-icon instagram"><span class="fa fa-instagram"></span></div>
-      <div class="social-icon facebook"><span class="fa fa-facebook"></span></div>
-      <div class="social-icon google"><span class="fa fa-google"></span></div>
-      <div class="social-icon linkedin"><span class="fa fa-linkedin"></span></div>
-      <div class="social-icon twitter"><span class="fa fa-twitter"></span></div>
-    </div>
-    <span class="login-form-copy">Don't have an account ?<a href="" class="login-form_sign-up">Sign Up</a></span>
- </form>
-</div>
-
-<!--Footer-->
-<div class="footer">
+ <div class="footer">
   <div class="inner-footer">
     <div class="container0">
       <p class="footer-title">
         <img
-          src="https://github.com/TanuGaikwad/vista-europe-group-project-1-icp-7/blob/main/icons/vista-Europe.png?raw=true"
+          src="../icons/vista-Europe.png"
           alt="vista-Europe"
           class="footer-logo"
         />
-        <span class="footer-name"> </span>
+        <span class="footer-name"> Vista-Europe</span>
       </p>
       <br />
       <p>
         "Europe's rich history and vast array of cultures makes it a perfect
         destination for exploration and discovery."
       </p>
-      </div>
-      <div class="container1">
+    </div>
+    <div class="container1">
       <div class="footer-content">
         <p class="footer-title"><b> Docs </b></p>
         <a href="./pages/destination.html" class="footer-anchor"
@@ -110,11 +118,11 @@
         <a href="#" class="footer-anchor"><span>Couple Trips</span></a>
         <br />
         <a href="#" class="footer-anchor"><span>Blog</span></a> <br />
-        <a href="./pages/about.html" class="footer-anchor"
+        <a href="./about.html" class="footer-anchor"
           ><span>About Us</span></a
         >
         <br />
-        </div>
+      </div>
 
       <div class="footer-content">
         <p class="footer-title"><b> Quick links </b></p>
@@ -158,17 +166,24 @@
         class="footer-anchor"
         target="_blank"
       >
-       
-        
+        <img
+          src="../icons/location.png"
+          alt="location"
+          class="contact-logo"
+        />
         <span
-          > 404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari
+          >404, Laxmi Heights, Above Lotus Multi-speciality Hospital Manjari
           BK, <br />
           Pune - 412307</span
         >
       </a>
       <br />
       <a href="tel: +91-8805803087" class="footer-anchor">
-        <img src="../icons/telephone.png" alt="phone" class="contact-logo" />
+        <img
+          src="../icons/telephone.png"
+          alt="phone"
+          class="contact-logo"
+        />
         <span>+91-8805803087</span>
       </a>
       <br />
@@ -178,10 +193,10 @@
       </a>
     </div>
   </div>
-   <div class="footer-end">
+  <div class="footer-end">
     <p>© 2024 Freedom Holidays</p>
     <p>All rights Reserverd Terms of Use Privacy Policy</p>
-</div>
+  </div>
 </div>
 </body>
 </html>
