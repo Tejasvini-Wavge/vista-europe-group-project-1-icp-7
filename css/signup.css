@@ -1,0 +1,89 @@
+body{
+    padding:40px;
+}
+p{
+    text-align: center;
+    color:#092635;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    font-size: large;
+}
+button{
+    border-radius: 5px;
+    width:640px;
+    height:45px;
+    background-color:#7CBBE3;
+    cursor: pointer;
+    font-size: large;
+   }
+.user{
+    padding-left: 780px;
+    font-size: 25px;
+}
+   .pass{
+    padding-left: 780px;
+    font-size: 25px;
+}
+.tex{
+    font-size:50px;
+    color:aliceblue;
+}
+.des{
+    color:aliceblue;
+ }   
+.google-logo {
+height: 40px;
+width: 50px;
+cursor: pointer;
+padding-top:20px;
+margin:auto;
+margin-left:20px;
+}
+.instagram-logo {
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+    padding-top: 20px;
+    margin:auto;
+    margin-left: 20px;
+  }
+ .twitter-logo {
+        height: 40px;
+        width: 50px;
+        cursor: pointer;
+        padding-top: 20px;
+        margin:auto;
+        margin-left: 20px;
+ }
+.microsoft-logo {
+            height: 40px;
+            width: 50px;
+            cursor: pointer;
+            padding-top: 20px;
+            margin:auto;
+            margin-left: 20px;
+   }
+ .description{
+    color:aliceblue;
+    font-size: 40px;
+} 
+.f-name{
+padding-left: 780px;
+font-size: 25px;
+}
+.l-name{
+padding-left: 780px;
+font-size:25px;
+ }
+ .a{
+    border-radius: 5px;
+    width:620px;
+    height:35px;
+    
+ }
+ .bold{
+    color:aliceblue;
+    font-size: 25px;
+ }
