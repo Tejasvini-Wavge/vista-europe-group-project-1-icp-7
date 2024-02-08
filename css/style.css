@@ -18,16 +18,17 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-radius: 10px;
     font-weight: bold;
+    background-color: aliceblue;
+    height: 60px;
 }
 
 .logo-img {
-    height: 60px;
+    height: 45px;
     display: block;
     margin: 10px auto;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px 2px aliceblue;
+    box-shadow: 1px 1px 5px 2px #092635;
 }
 
 .logo-img:hover {
@@ -56,7 +57,9 @@ body {
 
 .nav-anchor {
     text-decoration: none;
-    color: aliceblue;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #092635;
 }
 
 .footer {
