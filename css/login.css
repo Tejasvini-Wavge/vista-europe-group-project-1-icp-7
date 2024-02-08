@@ -1,27 +1,16 @@
-/* 
-    background-color - #092635
-    color - aliceblue
-*/
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
-
 body {
     font-family: 'Nunito', sans-serif;
     background-color: #092635;
     color: aliceblue;
     margin: 0;
 }
-
 .nav {
-    position: sticky;
-    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border-radius: 10px;
     font-weight: bold;
 }
-
 .logo-img {
     height: 60px;
     display: block;
@@ -29,36 +18,30 @@ body {
     border-radius: 5px;
     box-shadow: 1px 1px 5px 2px aliceblue;
 }
-
 .logo-img:hover {
     border: none;
     transform: scale(1.1);
     transition: 0.5s;
 }
-
 .nav-content:hover {
     transform: scale(1.1);
     transition: 0.5s;
 }
-
 .icon-img {
     height: 30px;
     padding-bottom: 0;
 }
-
 .search-bar {
+    font-family: cursive;
     border: 1px solid aliceblue;
     border-radius: 5px;
-    padding: 5px 40px;
+    padding: 5px 35px;
     background-color: #092635;
-    color: aliceblue;
 }
-
 .nav-anchor {
     text-decoration: none;
     color: aliceblue;
 }
-
 .footer {
     margin: 0;
     padding: 30px 30px 0 30px;
@@ -67,51 +50,127 @@ body {
     font-size: small;
     font-weight: 600;
 }
-
 .inner-footer {
     display: flex;
 }
-
 .container0 {
     display: inline;
 }
-
 .container1 {
     width: 900px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-
 .footer-title {
     font-size: large;
     margin-bottom: 0;
 }
-
 .footer-logo {
     width: 100px;
 }
-
 .footer-name {
     margin: 10px;
 }
-
 span {
     color: #092635;
 }
-
 .contact-logo {
     height: 15px;
 }
-
 .footer-anchor {
     text-decoration: none;
     color: #092635;
 }
-
 .footer-end {
     display: block;
     text-align: center;
     margin-bottom: 5px;
     padding: 10px;
 }
+body{
+    padding:80px;
+}
+p{
+    text-align: center;
+    color:#092635;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+.a{
+    border-radius: 5px;
+    width:550px;
+    height:30px;
+}
+.b{
+    border-radius: 5px;
+    width:550px;
+    height:30px;
+}
+button{
+    border-radius: 5px;
+    width:550px;
+    height:40px;
+    background-color:#7CBBE3;
+    cursor: pointer;
+    font-size: large;
+   }
+.user{
+    padding-left: 780px;
+    font-size: 25px;
+}
+   .pass{
+    padding-left: 780px;
+    font-size: 25px;
+}
+.tex{
+    font-size:50px;
+    color:aliceblue
+}
+.des{
+    color:aliceblue
+ }   
+.google-logo {
+height: 40px;
+width: 50px;
+cursor: pointer;
+padding-top: 20px;
+margin:auto;
+margin-left: 20px;
+}
+.instagram-logo {
+    height: 40px;
+    width: 50px;
+    cursor: pointer;
+    padding-top: 20px;
+    margin:auto;
+    margin-left: 20px;
+  }
+ .twitter-logo {
+        height: 40px;
+        width: 50px;
+        cursor: pointer;
+        padding-top: 20px;
+        margin:auto;
+        margin-left: 20px;
+ }
+.microsoft-logo {
+            height: 40px;
+            width: 50px;
+            cursor: pointer;
+            padding-top: 20px;
+            margin:auto;
+            margin-left: 20px;
+   }
+ .description{
+    color:aliceblue;
+    font-size: 30px;
+} 
+   
+
+ 
