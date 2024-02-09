@@ -10,14 +10,15 @@
 
 .banner-title {
     position: absolute;
-    right: 100px;
-    top: 300px;
+    right: 200px;
+    top: 275px;
     font-size: 45px;
     font-weight: bolder;
-    color: #F9F7F7;
+    color: #112D4E;
 }
 
-.romantic-cities {
+
+.arts-cities {
     font-size: 30px;
     margin-left: 100px;
     font-weight: bolder;

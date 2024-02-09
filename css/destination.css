@@ -1,26 +1,11 @@
-.banner {
-    margin: 0;
-    position: relative;
-}
-
-.banner-img {
+.find-perfect-trip {
     width: 100%;
-    height: 550px;
 }
 
-.banner-title {
-    position: absolute;
-    right: 100px;
-    top: 300px;
-    font-size: 45px;
-    font-weight: bolder;
-    color: #F9F7F7;
-}
-
-.romantic-cities {
-    font-size: 30px;
+.trip-title {
     margin-left: 100px;
-    font-weight: bolder;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .container {
@@ -34,7 +19,6 @@
 
 .card {
     width: 350px;
-    height: 550px;
     border: 1px solid #112D4E;
     border-radius: 10px;
     margin: 30px;
@@ -68,7 +52,7 @@
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     display: block;
-    margin: 5px auto 0px auto;
+    margin: 5px auto 15px auto;
     padding: 7px 15px;
     border: none;
     border-radius: 15px;
@@ -80,8 +64,4 @@
 .btn-know-more:hover {
     transform: scale(1.1);
     transition: 1s;
-}
-
-.anc {
-    text-decoration: none;
 }
