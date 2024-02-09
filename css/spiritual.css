@@ -14,7 +14,7 @@
 .spiritual_title {
     text-align: center;
     position: absolute;
-    top: 35%;
+    top: 60%;
     left: 18%;
     color: white;
     font-weight: 1000;
@@ -55,7 +55,7 @@
 }
 .spiritual-bottom{
     display: flex;
-    border: solid 2px white;
+    border: solid 2px #112D4E;
     width: 98%;
     height: 500px;
     margin-bottom: 20px;
