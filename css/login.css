@@ -1,0 +1,70 @@
+body{
+  padding:200px;
+  margin:0;
+}
+.containt{
+  border:2px solid rgb(99, 137, 156);
+  border-radius: 15px;
+  display:flex;
+  padding-right:80px;
+  height:900px;
+  box-shadow: 10px 10px 10px 10px  gray;
+  
+  }
+.parent{
+  align-content: center;
+  justify-content: center;
+  width:1500px;
+}
+.description{
+  padding-left: 200px;
+}
+img{
+  width:800px;
+}
+h1{
+  font-size: 40px;
+  justify-content: center;
+  text-align:center;
+  margin:center;
+  padding-top:30px;
+}
+.a{
+  padding-top:40px;
+  text-align: left;
+}
+ 
+.f-pass{
+  padding-top:40px; 
+  text-align:right;
+  font-size: 25px;
+  cursor: pointer;
+}
+button{
+  width:400px;
+  height:50px;
+  border-radius: 10px;
+  border:none;
+  font-size: larger;
+  background-color:#80bfff;
+  cursor: pointer;
+  
+}
+.btn{
+  padding-top:40px;
+}
+.des{
+  padding-top:40px; 
+  font-size: 25px;
+}
+.link{
+  padding-top:40px; 
+  text-align:center;
+  font-size: 30px;
+}
+input{
+  height:50px;
+  width:400px;
+  border-radius: 10px;
+  border:none;
+}

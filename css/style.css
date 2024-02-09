@@ -13,21 +13,27 @@ body {
 }
 
 .nav {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-radius: 10px;
     font-weight: bold;
+<<<<<<< HEAD
     background-color:#092635 ;
 
+=======
+    background-color: aliceblue;
+    height: 60px;
+>>>>>>> 8b2bfdb512826ee6fe33b0067457931e104bbf39
 }
 
 .logo-img {
-    height: 60px;
+    height: 45px;
     display: block;
     margin: 10px auto;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px 2px aliceblue;
+    box-shadow: 1px 1px 5px 2px #092635;
 }
 
 .logo-img:hover {
@@ -47,16 +53,18 @@ body {
 }
 
 .search-bar {
-    font-family: cursive;
     border: 1px solid aliceblue;
     border-radius: 5px;
-    padding: 5px 35px;
+    padding: 5px 40px;
     background-color: #092635;
+    color: aliceblue;
 }
 
 .nav-anchor {
     text-decoration: none;
-    color: aliceblue;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #092635;
 }
 
 .footer {
