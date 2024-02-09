@@ -2,7 +2,6 @@
 p{
     text-align: center;
     color:#092635;
-    
     text-align: center;
     font-size: 20px;
     text-align: center;
@@ -17,11 +16,11 @@ button{
     font-size: large;
 }
 .user{
-    margin-left: 108px;
+    margin-left: 50px;
     font-size: 25px;
 }
 .pass{
-    margin-left: 108px;
+    margin-left: 50px;
     font-size: 25px;
 }
 .tex{
@@ -64,16 +63,16 @@ button{
     font-size: 20px;
 } 
 .f-name{
-    margin-left: 108px;
-    font-size: 25px;
+    margin-left:50px;
+    font-size:25px;
 }
 .l-name{
-    margin-left: 108px;
+    margin-left: 50px;
     font-size:25px;
 }
 .a{
     border-radius: 10px;
-   width: 550px;
+    width: 550px;
     height:40px;
 }
 .bold{
