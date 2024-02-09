@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background-color: #092635;
+    background-color:#092635;
     color: aliceblue;
     margin: 0;
 }
@@ -18,6 +18,8 @@ body {
     align-items: center;
     border-radius: 10px;
     font-weight: bold;
+    background-color:#092635 ;
+
 }
 
 .logo-img {
