@@ -1,0 +1,26 @@
+.heading {
+  
+  margin-left: 25%;
+  font-size: 50px;
+ margin-top: 40px;
+}
+
+.holy {
+    border-radius: 20px;
+    margin-top:50px;
+    margin-left: 15%;
+    width: 1050px;
+    height: 600px;
+}
+
+.discription {
+  margin: 20px 300px;
+  font-size: 20px;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  padding: 40px 30px;
+  border-radius: 20px;
+}

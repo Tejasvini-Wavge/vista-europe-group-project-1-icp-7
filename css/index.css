@@ -1,15 +1,8 @@
-/* 
-    background-color - #092635
-    color - aliceblue
-*/
 
-.img-index {
+video {
     display: block;
-    margin: 20px auto;
+    margin: 25px auto 10px auto;
     width: 900px;
-    height: 400px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px 10px aliceblue;
 }
 
 .destination {
@@ -19,18 +12,13 @@
 
 .title {
     text-align: center;
-    font-size: x-large;
+    font-size: 30px;
     margin-top: 50px;
-}
-
-.title:hover {
-    transform: scale(1.1);
-    transition: 1s;
 }
 
 .discription {
     text-align: center;
-    font-size: larger;
+    font-size: 20px;
 }
 
 .section {
@@ -40,13 +28,13 @@
 }
 
 .europe-map {
-    width: 450px;
-    height: 350px;
+    width: 600px;
+    height: 450px;
     border-radius: 10px;
 }
 
 .right {
-    font-size: larger;
+    font-size: 25px;
 }
 
 .find-perfect-trip {
@@ -55,13 +43,8 @@
 
 .trip-title {
     margin-left: 100px;
-    font-size: x-large;
+    font-size: 30px;
     font-weight: bold;
-}
-
-.trip-title:hover {
-    transform: scale(1.1);
-    transition: 1s;
 }
 
 .container {
@@ -75,15 +58,15 @@
 
 .card {
     width: 350px;
-    border: 1px solid aliceblue;
+    border: 1px solid #112D4E;
     border-radius: 10px;
     margin: 30px;
 }
 
 .card:hover {
-    box-shadow: 2px 2px 10px 5px aliceblue;
-    transform: scale(1.1);
-    transition: 1s;
+    box-shadow: 2px 2px 10px 5px #112D4E;
+    transform: scale(1.05);
+    transition: all 1s;
 }
 
 .card-img {
@@ -112,8 +95,14 @@
     padding: 7px 15px;
     border: none;
     border-radius: 15px;
-    background-color: aliceblue;
-    color: #092635;
+    background-color: #112D4E;
+    color: #DBE2EF;
+    cursor: pointer;
+}
+
+.btn-know-more:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 .tour-packages {
@@ -121,7 +110,7 @@
 }
 
 .tour-title {
-    font-size: xx-large;
+    font-size: 30px;
     font-weight: bolder;
     margin-left: 50px;
 }
@@ -138,7 +127,7 @@
     width: 600px;
     height: 400px;
     margin: 20px;
-    border: 1px solid aliceblue;
+    border: 1px solid #112D4E;
     border-radius: 15px;
 }
 
@@ -149,7 +138,8 @@
 }
 
 .tour-1-discription {
-    font-size: larger;
+    padding-top: 20px;
+    font-size: 23px;
 }
 
 .tour-1-btn {
@@ -160,8 +150,8 @@
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
-    background-color: aliceblue;
-    color: #092635;
+    background-color: #112D4E;
+    color: #DBE2EF;
 }
 
 .anc {
@@ -190,9 +180,9 @@
 }
 
 .tips-title {
-    text-align: center;
+    text-align: left;
     font-weight: bolder;
-    font-size: x-large;
+    font-size: 30px;
 }
 
 .tips-cards {
@@ -201,46 +191,44 @@
 
 .img-card {
     width: 300px;
-    height: 450px;
-    border: 1px solid aliceblue;
+    height: 300px;
+    border: 1px solid #112D4E;
     border-radius: 10px;
-    position: relative;
 }
 
 .tips-text {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    color: black;
-    font-size: 18px;
+    padding: 5px;
+    color: #112D4E;
+    font-size: 15px;
     font-weight: bolder;
     text-align: center;
 }
 
 .tips-img {
     width: 100%;
-    height: 100%;
-    border-radius: 10px;   
+    height: 55%;
+    border-radius: 10px 10px 0 0;   
 }
 
 .know-more {
     width: 100%;
     height: 200px;
-    background-color: aliceblue;
-    color: #092635;
+    background-color: #DBE2EF;
+    color: #112D4E;
     display: flex;
     justify-content: space-evenly;
 }
 
 .know-more-title {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
     padding-top: 30px;
 }
 
 .know-more-discription {
     font-size: 20px;
+    font-weight: bold;
 }
 
 .know {
@@ -251,8 +239,8 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #092635;
-    color: aliceblue;
+    background-color: #F9F7F7;
+    color: #112D4E;
 }
 
 .know-btn {
