@@ -1,6 +1,5 @@
 .banner {
     margin: 0;
-    position: relative;
 }
 
 .banner-img {
@@ -10,11 +9,11 @@
 
 .banner-title {
     position: absolute;
-    right: 100px;
-    top: 300px;
+    right: 450px;
+    top: 30px;
     font-size: 45px;
     font-weight: bolder;
-    color: #F9F7F7;
+    color: #112D4E;
 }
 
 .romantic-cities {

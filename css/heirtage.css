@@ -1,6 +1,5 @@
 .banner {
     margin: 0;
-    position: relative;
 }
 
 .banner-img {
@@ -10,11 +9,17 @@
 
 .banner-title {
     position: absolute;
-    right: 100px;
-    top: 300px;
-    font-size: 45px;
+    right: 450px;
+    top: 30px;
+    font-size: 50px;
     font-weight: bolder;
     color: #F9F7F7;
+}
+
+.heritage-discription {
+    text-align: center;
+    font-size: 25px;
+    margin: 40px 100px;
 }
 
 .heritage-cities {

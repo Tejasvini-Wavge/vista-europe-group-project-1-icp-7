@@ -1,6 +1,5 @@
 .banner {
     margin: 0;
-    position: relative;
 }
 
 .banner-img {
@@ -10,8 +9,8 @@
 
 .banner-title {
     position: absolute;
-    right: 200px;
-    top: 275px;
+    right: 450px;
+    top: 15px;
     font-size: 45px;
     font-weight: bolder;
     color: #112D4E;
