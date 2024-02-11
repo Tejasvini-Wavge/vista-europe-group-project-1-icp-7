@@ -1,0 +1,38 @@
+.banner {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-left {
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.banner-right {
+    width: 650px;
+}
+
+.banner-img {
+    width: 100%;
+    margin-left: 80px;
+    border-radius: 15px;
+}
+
+.paris-title {
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.you-vid {
+    display: block;
+    margin: 15px auto;
+}
+
+.paris-discription {
+    margin: 20px 80px;
+    font-size: 23px;
+}
