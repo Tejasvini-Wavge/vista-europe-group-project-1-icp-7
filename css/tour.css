@@ -26,9 +26,15 @@
 }
 
 .tour-img {
-    width: 800px;
+    width: 950px;
     margin: 25px;
     border-radius: 15px;
+}
+
+.tour-title {
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 100px;
 }
 
 .tour-includes {
