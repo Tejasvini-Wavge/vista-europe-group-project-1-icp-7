@@ -3,13 +3,6 @@
    width: 100%;
 }
 
-/* h2{
-    text-align: center;
-    font-size: 28px;
-    font-weight: 700;
-    font-family: 'Nunito', sans-serif; 
-    
-} */
 
 .spiritual_title {
     text-align: center;
@@ -33,19 +26,23 @@
 
 .btn2 {
     position:relative;
-    bottom: 20px;
+    bottom: 77px;
 }
 
+.btn-holy{
+   position: relative;
+   bottom: 50px;
+
+}
 .btn3 {
     position: relative;
-    top: 20px;
+    bottom: 4px;
 }
 
-.btn4 {
+.btn-stairs {
     position: relative;
-    top: 44px;
+    bottom: 27px;
 }
-
 .spiritual_video video  {
     height: 400px;
     width: 730px;
@@ -66,12 +63,62 @@
 
 }
 
+<<<<<<< HEAD
+.spiritual-para p{
+    
+    font-size: 25px;
+    
+}
+
+.spiritual-para{
+    
+=======
 .adventure-para{
+>>>>>>> 0e323d1f24e31aa5b0e20420a880e8fe4f7e9d82
     height: 500px;
     width: 700px;
     position: relative;
-    top: 20px;
+    top: 30px;
     left: 35px;
     font-size: 25px;   
 }
 
+<<<<<<< HEAD
+.a {
+    margin-bottom: 70px;
+}
+
+
+.click a {
+    color: white;
+    padding: 8px;
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.click a:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 1px 1px 1px 2px rgb(32, 8, 190);
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Protest+Revolution&family=Protest+Riot&display=swap');
+
+h1 {
+    margin-left: 600px;
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-family: 'Crimson Text', serif;
+    font-size: 40px;
+
+}
+
+=======
+>>>>>>> 0e323d1f24e31aa5b0e20420a880e8fe4f7e9d82
