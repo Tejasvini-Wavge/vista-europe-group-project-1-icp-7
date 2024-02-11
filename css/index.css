@@ -19,6 +19,8 @@ video {
 .discription {
     text-align: center;
     font-size: 20px;
+    margin: 20px;
+    padding: 10px;
 }
 
 .section {
