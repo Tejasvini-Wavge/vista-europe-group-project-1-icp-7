@@ -31,6 +31,7 @@ a {
 }
 
 .heading {
+<<<<<<< HEAD
   text-align: center;
   margin-top: 20px;
 }
@@ -49,6 +50,25 @@ p {
 
 img{
 border-radius: 15px ;
+=======
+  
+  margin-left: 25%;
+  font-size: 50px;
+ margin-top: 40px;
+}
+
+.holy {
+    border-radius: 20px;
+    margin-top:50px;
+    margin-left: 15%;
+    width: 1050px;
+    height: 600px;
+}
+
+.discription {
+  margin: 20px 300px;
+  font-size: 20px;
+>>>>>>> 0e323d1f24e31aa5b0e20420a880e8fe4f7e9d82
 }
 
 iframe {
