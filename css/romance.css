@@ -126,15 +126,7 @@
     box-shadow: 2px 2px 10px 5px #112D4E;
 }
 
-.amalfi-coast-discription {
-    margin: 20px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.scottish-discription {
+.section-discription {
     margin: 20px;
     padding: 15px;
     display: flex;
@@ -151,9 +143,4 @@
 .key-features {
     font-size: 23px;
     margin: 5px 20px;
-}
-
-.key-fea-item {
-    transform: scale(1.05);
-    transition: 1s;
 }

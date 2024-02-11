@@ -158,8 +158,3 @@
     font-size: 23px;
     margin: 5px 20px;
 }
-
-.key-fea-item {
-    transform: scale(1.05);
-    transition: 1s;
-}

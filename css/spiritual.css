@@ -53,6 +53,7 @@
     margin-bottom: 80px;
     margin-top: 50px;
 }
+
 .spiritual-bottom{
     display: flex;
     border: solid 2px #112D4E;
@@ -65,20 +66,12 @@
 
 }
 
-.spiritual-para p{
-    
-    font-size: 25px;
-    
-    
-    
-}
-.spiritual-para{
-    
+.adventure-para{
     height: 500px;
     width: 700px;
     position: relative;
     top: 20px;
     left: 35px;
-    
+    font-size: 25px;   
 }
 
