@@ -13,14 +13,14 @@
     top: 15px;
     font-size: 45px;
     font-weight: bolder;
-    color: #112D4E;
+    color: white;
 }
 
 
 .arts-cities {
     font-size: 30px;
+    font-weight: 900;
     margin-left: 100px;
-    font-weight: bolder;
 }
 
 .container {
@@ -85,3 +85,15 @@
 .anc {
     text-decoration: none;
 }
+
+.fam-title  {
+    font-size: 25px;
+}
+
+/* @media screen  and (max-width:900px; ){
+
+    .section-discription{
+        display: flex;
+        flex-direction: column;
+    }
+} */
