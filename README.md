@@ -8,7 +8,7 @@ This website is a project for us in the course that all team members are persuin
 Languages used in the this website is HTML, CSS and we are planning to implement JavaScript in it, by moving further by the course.
 
 ## To Contribute on Vista_Europe
-### DM me on LinkedIn 
+    DM me on LinkedIn 
 
 ## Contributers 
 <a href="https://github.com/sahilPatil20/vista-europe-group-project-1-icp-7/graphs/contributors">
