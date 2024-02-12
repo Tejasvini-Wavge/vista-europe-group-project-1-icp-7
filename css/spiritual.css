@@ -1,5 +1,5 @@
 .spiritual_img img{
-    height: 800px;
+    height: 550px;
    width: 100%;
 }
 
@@ -78,23 +78,4 @@ h1 {
     position: relative;
     bottom: 10px;
      
-}
-
-.links{
-    text-align: center;
-    font-size: 25px;
-    font-weight: 900;
-    margin-left: 560px;
-    margin-right: 560px;
-    margin-top: 50px;
-    
-}
-
-.links a {
-    text-decoration: none;
-    border-radius: 10px;
-}
-
-.links :hover {
-box-shadow: 1px 1px 2px 2px #004080 ;
 }
