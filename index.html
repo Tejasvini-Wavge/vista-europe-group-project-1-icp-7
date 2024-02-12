@@ -5,6 +5,75 @@
     <title>VistaEurope</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/index.css" />
+
+    <style>
+      @media screen and (max-width: 768px) {
+        
+        .nav {
+          flex-wrap: wrap; 
+          padding: 10px 0;
+      }
+  
+      .logo-img {
+          margin: 0 10px; 
+      }
+  
+      .nav-content, .search-bar {
+          padding: 5px 10px;
+          font-size: smaller; 
+      }
+  
+      .search-bar {
+          padding: 5px;
+          width: auto; 
+      }
+
+      .iframe {
+        width: 90%;
+        height: 300px;
+      }
+        
+      .europe-map, .tour-1-img, .tips-img {
+          display: block;
+          margin: 5px auto;
+          width: 90%;
+          height: auto;
+      }
+    
+      .section, .tour-1, .tour-2, .tour-3  {
+          flex-direction: column;
+          align-items: center;
+      }
+    
+      .tips-cards, .tips-title{
+        visibility: hidden;
+      }
+
+      .card, .img-card {
+        width: 100%;
+      }
+    
+      .title, .discription, .trip-title, .tour-title {
+        font-size: 20px; 
+        text-align: center;
+      }
+    
+      .container {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      .know-more {
+        visibility: hidden;
+      }
+    
+      .know-inp, .know-btn {
+        width: 80%;
+        margin: 10px auto;
+      }
+    }
+    
+    </style>
     
 </head>
 <body>
@@ -24,6 +93,12 @@
         <a href="index.html" class="nav-anchor"> Home </a>
       </div>
       <div class="nav-content">
+        <a href="./pages/destination.html" class="nav-anchor"> Destination </a>
+      </div>
+      <div class="nav-content">
+        <a href="./pages/experiences.html" class="nav-anchor"> Experiences </a>
+      </div>
+      <div class="nav-content">
         <form>
           <input
             class="search-bar"
@@ -32,21 +107,13 @@
           />
         </form>
       </div>
-      <div class="nav-content">
-        <a href="./pages/destination.html" class="nav-anchor"> Destination </a>
-      </div>
-      <div class="nav-content">
-        <a href="./pages/experiences.html" class="nav-anchor"> Experiences </a>
-      </div>
       <div class="nav-content">   
         <a href="./pages/login.html" class="nav-anchor"> Login </a>
       </div>
     </div>
 
     <div class="vid-main">
-      <video autoplay loop="Multiple">
-        <source src="./video/istockphoto-1182509355-640_adpp_is.mp4" type="video/mp4">
-      </video>
+      <iframe width="900" height="500" src="https://www.youtube.com/embed/KnUEB5XX3qw?si=tXtZpjfMajiwjnXL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="iframe"></iframe>
     </div>
 
     <div class="destination">
@@ -55,9 +122,7 @@
       </div>
       <div class="discription">
         <p>
-          Get inspired by some of the most magical destinations on earth, from
-          the 'Lapland' in the Nordic north to sun-soaked Greek Islands in the
-          Mediterranean's south.
+          Europe is also known for its natural beauty, ranging from the rugged fjords of Norway to the sun-soaked beaches of the Mediterranean. The Alps and the Pyrenees offer breathtaking mountain landscapes that attract skiers and hikers from all over the world. Meanwhile, the rolling countryside of Tuscany, the lavender fields of Provence, and the wild coastlines of the Atlantic offer more serene but equally stunning vistas.
         </p>
         <p>- - - - - - - - - - - - - - - - - - - - - - - - -</p>
       </div>
@@ -109,7 +174,7 @@
               class="card-img"
             />
           </a>
-          <p class="card-title">Spritual</p>
+          <p class="card-title">Spiritual</p>
           <p class="card-discription">
             Europe's spiritual landscape is rich and diverse, blending ancient
             traditions with modern movements in a quest for meaning and
@@ -319,7 +384,7 @@
             alt="img"
             class="tips-img"
           />
-          <p class="tips-text">TRAVELING AROUND EUROPE</p>
+          <p class="tips-text">TRAVELING AROUND EUROPE <br><br></p>
           <a href="./pages/traveling-europe.html" class="anc">
           <button class="btn-know-more">Know More!!</button>
         </a>
